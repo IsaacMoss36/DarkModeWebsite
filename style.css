@@ -1,0 +1,63 @@
+body, div, html {
+    margin:0;
+    padding:0;
+}
+body {
+    min-height: 100vh;
+    padding:10px;
+    background-color:lightgray;
+}
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom:5px;
+    width:75px;
+    margin-left:200px;
+    font-size: 60;
+}
+.products{
+    background-color:white;
+    font-size:48;
+    padding:10px 15px;
+    margin:10px 200px;
+    font-weight: bold;
+    
+    
+}
+
+#darkMode{
+    border: 1px solid black;
+    font-size:16px;
+    padding:10px;
+    width:125px;
+    margin-left:200px;
+}
+
+.darkModeActivate{
+    background-color:rgb(49, 49, 49);
+
+}
+
+.darkModeActivate2{
+    background-color: rgb(89, 89, 89);
+    color:white;
+
+}
+
+.darkModeActivate3{
+    border-color: white;
+    color:white;
+
+}
+
+.darkMode:hover{
+    cursor:pointer;
+}
+
+.information{
+    display:inline-flex;
+    width:33%;
+    padding:0;
+    margin:0;
+    font-size:24px;
+    
+}
